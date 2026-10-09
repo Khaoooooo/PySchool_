@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".PySchoolApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_see"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PySchool">
+
+        <!-- 01 Splash (Main Launcher) -->
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PySchool.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 02 Home -->
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 03-06 Lessons -->
+        <activity android:name=".ui.lesson.Lesson1Activity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.lesson.Lesson2Activity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.lesson.Lesson3Activity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.lesson.Lesson4Activity" android:screenOrientation="portrait" />
+
+        <!-- 07 Visual / 08-09 Quiz / 10 History / 11 About -->
+        <activity android:name=".ui.visual.VisualLearnActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.quiz.QuizActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.quiz.QuizResultActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.history.HistoryActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.about.AboutActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.game.GameLabActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.advanced.AdvancedPreviewActivity" android:screenOrientation="portrait" />
+    </application>
+</manifest>

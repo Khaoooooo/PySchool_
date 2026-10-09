@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_nav_top"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="10dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/backButton"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="0dp"
+        app:strokeColor="@color/line"
+        app:strokeWidth="1.5dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/cd_back"
+            android:src="@drawable/ic_back"
+            app:tint="@color/ink" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:gravity="center"
+        android:textColor="@color/ink"
+        android:textSize="14sp"
+        tools:text="Visual Learn" />
+
+    <TextView
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingEnd="5dp"
+        android:shadowColor="@color/ink"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="0.5"
+        android:text="★"
+        android:textColor="@color/yellow"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+</LinearLayout>

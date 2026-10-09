@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PySchool" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_deep</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/yellow</item>
+        <item name="colorOnSecondary">@color/ink</item>
+        <item name="android:windowBackground">@color/canvas</item>
+        <item name="android:textColorPrimary">@color/ink</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- กันหน้าขาวกระพริบก่อน Splash ขึ้น -->
+    <style name="Theme.PySchool.Splash">
+        <item name="android:windowBackground">@color/purple</item>
+    </style>
+
+    <!-- Base Text style -->
+    <style name="Text" />
+
+    <!-- Text styles (ตรงกับคลาส CSS ของโปรโตไทป์) -->
+    <style name="Text.Eyebrow">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.16</item>
+        <item name="android:fontFamily">@font/montserrat_extrabold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.SectionTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:fontFamily">@font/montserrat_extrabold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Text.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/muted</item>
+    </style>
+    <style name="Text.Mono">
+        <item name="android:fontFamily">@font/jetbrains_mono_bold</item>
+    </style>
+</resources>

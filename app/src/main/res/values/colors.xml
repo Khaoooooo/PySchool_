@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Design tokens จาก :root ใน src/index.css ของโปรโตไทป์ -->
+<resources>
+    <color name="purple">#B8AEF5</color>
+    <color name="purple_deep">#786BE0</color>
+    <color name="purple_pale">#EEEAFD</color>
+    <color name="yellow">#FFD42A</color>
+    <color name="yellow_pale">#FFF5BD</color>
+    <color name="ink">#202020</color>
+    <color name="muted">#706E78</color>
+    <color name="white">#FFFFFF</color>
+    <color name="canvas">#F7F5FC</color>
+    <color name="line">#DEDBE7</color>
+    <color name="success">#C9F5B6</color>
+    <color name="danger">#FFE1D9</color>
+    <color name="code_line">#454545</color>
+    <color name="code_text">#F7F7F7</color>
+    <color name="dark_track">#4A4A4A</color>
+    <color name="mid_muted">#9996A1</color>
+    <color name="soft_muted">#BBB9C0</color>
+    <color name="nav_bg">#F5FFFFFF</color>
+    <color name="white_soft">#99FFFFFF</color>
+    <color name="splash_circle">#21FFFFFF</color>
+    <!-- syntax highlight -->
+    <color name="code_comment">#8A8794</color>
+    <color name="code_number">#7CC4FF</color>
+    <color name="code_builtin">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

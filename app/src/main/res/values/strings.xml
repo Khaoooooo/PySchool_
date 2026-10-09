@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PySchool</string>
+    <string name="tagline_two_lines">Learn Python\nStep by Step</string>
+
+    <!-- Home -->
+    <string name="home_journey_eyebrow">YOUR PYTHON JOURNEY</string>
+    <string name="home_journey_title">From first line\nto real ideas.</string>
+    <string name="home_progress_label">YOUR PROGRESS</string>
+    <string name="home_level">Python Beginner</string>
+    <string name="home_lessons_done">%1$d of %2$d core modules</string>
+    <string name="home_keep_going">Keep going!</string>
+    <string name="home_continue">Continue Learning</string>
+    <string name="home_syllabus_eyebrow">CORE MODULES</string>
+    <string name="home_syllabus_title">Learn by syllabus</string>
+    <string name="home_syllabus_subtitle">Weeks 1-6 · Start with the fundamentals</string>
+    <string name="home_bonus_eyebrow">BONUS TRACKS</string>
+    <string name="home_bonus_title">Go beyond the basics</string>
+    <string name="home_bonus_subtitle">Highlights from weeks 7-14</string>
+    <string name="home_tools_title">Study tools</string>
+    <string name="lesson_label">LESSON %1$s</string>
+    <string name="percent_format">%1$d%%</string>
+
+    <!-- Lessons catalog -->
+    <string name="lesson1_title">Introduction &amp; Basic Concepts</string>
+    <string name="lesson1_desc">Meet Python and learn how variables store information.</string>
+    <string name="lesson2_title">Operators &amp; Data Types</string>
+    <string name="lesson2_desc">Calculate with values and work confidently with strings.</string>
+    <string name="lesson3_title">Control Statements</string>
+    <string name="lesson3_desc">Make decisions and repeat tasks with clear logic.</string>
+    <string name="lesson4_title">Functions &amp; Modules</string>
+    <string name="lesson4_desc">Build reusable code and organize it into modules.</string>
+
+    <!-- Explore tiles -->
+    <string name="tile_visual">Visual Learn</string>
+    <string name="tile_visual_note">See code move</string>
+    <string name="tile_quiz">Quick Quiz</string>
+    <string name="tile_quiz_note">Test yourself</string>
+    <string name="tile_history">History</string>
+    <string name="tile_history_note">Track progress</string>
+    <string name="tile_about">About</string>
+    <string name="tile_about_note">Meet the team</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_visual">Visual</string>
+    <string name="nav_quiz">Quiz</string>
+    <string name="nav_history">History</string>
+
+    <!-- Lesson screens -->
+    <string name="lesson_title_format">Lesson %1$s</string>
+    <string name="lesson_counter">%1$d / %2$d</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_next_lesson">Next lesson</string>
+    <string name="btn_visual_learn">Try Visual Learn</string>
+    <string name="label_python">PYTHON</string>
+    <string name="label_output">OUTPUT</string>
+    <string name="cd_back">Go back</string>
+
+    <string name="coming_soon">This screen is coming soon</string>
+    <string name="cd_about">About PySchool</string>
+    <!-- Common -->
+    <string name="score_format">%1$d/%2$d</string>
+    <string name="dash">—</string>
+
+    <!-- 07 Visual Learn -->
+    <string name="visual_title">See how Python works.</string>
+    <string name="visual_subtitle">Press run and watch each step come alive.</string>
+    <string name="visual_live">LIVE VISUALIZER</string>
+    <string name="visual_memory">MEMORY</string>
+    <string name="visual_memory_empty">empty</string>
+    <string name="visual_run">Run step</string>
+    <string name="visual_next">Next step</string>
+    <string name="visual_reset">Reset</string>
+    <string name="visual_status_ready">READY</string>
+    <string name="visual_status_done">DONE</string>
+    <string name="visual_status_step">STEP %1$d/%2$d</string>
+    <string name="visual_tip_title">Learning tip</string>
+    <string name="visual_tip_text">Try each tab and predict what happens before pressing Run.</string>
+
+    <!-- 08 Quiz -->
+    <string name="quiz_title">Python Quiz</string>
+    <string name="quiz_question_label">Question</string>
+    <string name="quiz_previous">Previous</string>
+    <string name="quiz_next">Next</string>
+    <string name="quiz_submit">Submit</string>
+    <string name="quiz_correct">Correct!</string>
+    <string name="quiz_incorrect">Not quite.</string>
+
+    <!-- 09 Result -->
+    <string name="result_title">Quiz complete!</string>
+    <string name="result_subtitle">Here is how you did.</string>
+    <string name="result_your_score">YOUR SCORE</string>
+    <string name="result_try_again">Try Again</string>
+    <string name="result_view_history">View History</string>
+    <string name="result_back_home">Back to Home</string>
+    <string name="result_msg_great_title">Great job!</string>
+    <string name="result_msg_great_text">You really know your Python. Keep learning one step at a time.</string>
+    <string name="result_msg_good_title">Good effort!</string>
+    <string name="result_msg_good_text">Review the lessons and try again to beat your score.</string>
+    <string name="result_msg_practice_title">Keep practicing!</string>
+    <string name="result_msg_practice_text">Revisit the lessons. Every attempt helps the concepts stick.</string>
+
+    <!-- 10 History -->
+    <string name="history_eyebrow">YOUR PROGRESS</string>
+    <string name="history_title_word">stronger.</string>
+    <string name="history_title">Every quiz makes\nyou %1$s</string>
+    <string name="history_best">BEST SCORE</string>
+    <string name="history_personal_best">Personal best</string>
+    <string name="history_taken">QUIZZES TAKEN</string>
+    <string name="history_keep_up">Keep it up!</string>
+    <string name="history_recent">Recent quizzes</string>
+    <string name="history_latest">Your latest attempts</string>
+    <string name="history_quiz_name">Python Quiz</string>
+    <string name="history_best_tag">BEST</string>
+    <string name="history_empty">No quizzes yet.\nTake your first quiz and your scores will show up here.</string>
+    <string name="history_one_more">One more quiz?</string>
+    <string name="history_practice">Practice is how concepts stick.</string>
+
+    <!-- 11 About -->
+    <string name="about_title">About PySchool</string>
+    <string name="about_tagline">Learn Python. Step by Step.</string>
+    <string name="about_version">VERSION 1.0</string>
+    <string name="about_team">Meet the team</string>
+    <string name="about_built_with">Built with</string>
+    <string name="about_refs_title">Learning References</string>
+    <string name="about_refs_body">Python Documentation (docs.python.org)\nCourse Materials\nEducational Websites</string>
+    <string name="about_credits_title">Credits</string>
+    <string name="about_credits_body">Original PySchool illustrations.\nFonts: Montserrat and JetBrains Mono (SIL Open Font License).</string>
+    <string name="about_course">Course project: 060243118 Mobile Application Development</string>
+    <string name="member_01_name">ข้าวทิพย์ มงคลศุภรัศมิ์</string>
+    <string name="member_01_id">6706021611325</string>
+    <string name="member_01_role">UI/UX, AI &amp; Architecture</string>
+    <string name="member_02_name">นภัสกรณ์ แย้มศิริ</string>
+    <string name="member_02_id">6706021611287</string>
+    <string name="member_02_role">QA, Testing &amp; Docs</string>
+    <string name="member_03_name">วุฒิชัย ปานทอง</string>
+    <string name="member_03_id">6706021611091</string>
+    <string name="member_03_role">QA, Testing &amp; Docs</string>
+</resources>

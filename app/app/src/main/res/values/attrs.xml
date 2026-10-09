@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BlobView">
+        <attr name="blobFill" format="color" />
+        <attr name="blobStroke" format="color" />
+        <attr name="blobStrokeWidth" format="dimension" />
+        <attr name="blobShadowColor" format="color" />
+        <attr name="blobShadowOffset" format="dimension" />
+    </declare-styleable>
+</resources>
